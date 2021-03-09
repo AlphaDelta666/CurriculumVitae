@@ -1,0 +1,99 @@
+var exp = {
+  "0":{
+    "DateDébut":2020,
+    "DateFin":"~",
+    "Titre":"Développeur TMA, HARDIS GROUP",
+    "Description":"Dans le cadre de ma mission, j'ai été en charge du développement et de la maintenance de la solution mise en place chez les clients Hardis, de la communication au seins des équipes avec les clients sur l'avancement des tickets.",
+    "Compétences":{
+      "human":[
+        "Team Working", "Compréhension de besoins clients"
+      ],
+      "tech":[
+        "Algorithmique", "Oracle", "SQL Serveur"
+      ],
+      "method":[
+        "JIRA", "Itop"
+      ]
+    }
+  },
+  "1":{
+    "DateDébut":2020,
+    "Titre":"Dévellopemmen d'un application Android (JAVA).",
+    "Description":"Dans le cadre d'un projet universitaire, une application Android à dûe être élaborer pour des enfant du cycle primaire avec des exercice de différente matière adapter à leurs niveaux.",
+    "Compétences":{
+      "human":[
+        "Comphréension de besoins clients"
+      ],
+      "tech":[
+        "JAVA", "XML"
+      ],
+      "method":[
+        "Wireframe", "FlowChart", "Diagrammes de Séquences", "Diagrammes de Classes",
+        "Diagrammes de Cas d'Utilisation"
+      ]
+    }
+  },
+  "2":{
+    "DateDébut":2020,
+    "Titre":"Développement d’un logiciel de traitement d’image (C++).",
+    "Description":"Dans le cadre d'un projet universitaire, nous avons dévelloper avec mon binôme un logiciel de traitements d'image type GIMP en C++ à l'aide de bibliothèque WxWidgets.",
+    "Compétences":{
+      "human":["Team Working"],
+      "tech":["C++","WxWidgets"],
+      "method":["Traitement d'images"]
+    }
+  },
+  "3":{
+    "DateDébut":2020,
+    "Titre":"GAMEJAM : Développement d’un jeux vidéo en Python.",
+    "Description":"Dans le cadre d'une GAMEJAM universitaire, nous avons développés avec mon équipe de quatre un jeux vidéo en Python utilisant la bibliothèque Pygame. Le thème de la GAMEJAM était \"L'air\", avec mon équipe nous avons imaginé un \"Roguelike\" basé sur l'air.",
+    "Compétences":{
+      "human":["Team Working", "Limited Time"],
+      "tech":["Algorithmique", "Python", "PyGame", "PathFinding (A* et Dijkstra)", "Mapping"]
+    }
+  },
+  "4":{
+    "DateDébut":2019,
+    "Titre":"Projet Everest : Développement complet d’un site web associatif.",
+    "Description":"Dans le cadre du projet de fin de 1er semestre, ayant pour thème \"Les Association\" nous avons, six camarades et moi-même dévellopés le projet Everest. Le but de ce projet était de mettre en place une solution web pour une association permettant une meilleur gestion de ses ressources, évènements et adhérents. Cette solution permet aussi aux différents membres d'avoir accès et de s'incrire aux différents évènements proposés par l'association (Cours, sortie, ...). Cette solution permet aussi une communication entre les adhérents à l'aide d'un chat propre à chaque évènement.",
+    "Compétences":{
+      "human":["Team Working", "Owner Relation", "Team Lead", "Présentation/Vente"],
+      "tech":["MariaDB", "API Google Calendar",
+        {"Web":[
+          "HTML5", "CSS3", "JavaScript7", "PHP7"
+        ]},
+      ],
+      "method":["Gestion de Projet (GANT)", "Programmation MVC",
+        {"Documentation":["Cahier des Charges", "Spécification Fonctionnel Détaillé", "Cahier de Recette", "Guide d'Utilisation"]},
+        {"UML":["Diagramme de Classe", "Diagrammes de Séquences", "Diagrammes de Cas d'Utilisations", "Schéma de Base de Données"]}
+      ]
+    }
+  },
+  "5":{
+    "DateDébut":2019,
+    "Titre":"Projet site marchand : Développement d’un site web.",
+    "Description":"Dans le cadre d'un projet universitaire, nous avons avec mon bînome développé un site web marchand en PHP7 - SQLITE permettant le stockage de produit utilisateur afin de mettre en place un systeme de vente/trock de cartes à collectionner entre les utilisateurs de notre site.",
+    "Compétences":{
+      "tech":["PHP7","SQLITE"],
+      "method":["Programmation MVC"]
+    }
+  },
+  "6":{
+    "DateDébut":2019,
+    "Titre":"Projet C++ : Développement d’un nouveaux langage de programmation",
+    "Description":"Dans le cadre d'un projet universitaire, nous avons avec mon binôme développé un compilateur C++ pour un langage naturel. Dans le cadre de ce projet, j'ai dévéloppé mes compétences dans le parcours d'arbres binaire et la conception d'algorithmes récursifs.",
+    "Compétences":{
+      "tech":["C++","XML","Algorithmique","Arbres Binaires"]
+    }
+  },
+  "7":{
+    "DateDébut":2019,
+    "Titre":"Projet Ile Interdite : Développement d’un logiciel JAVA",
+    "Description":"Dans le cadre d'un projet universitaire, nous avons avec trois camarades exporté un jeu de plateau en jeux vidéo. Durant ce projet j'ai développé mes compétences en Programmation Orienté Object ainsi qu'en création d'interface.",
+    "Compétences":{
+      "human":["Speach"],
+      "tech":["JAVA", "Bibliothèque SWING"],
+      "method":["POO", "UX"]
+    }
+  }
+};

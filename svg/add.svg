@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="320" height="320"
+     viewBox="0 0  "
+     version="1.1">
+  <title>Title here</title>
+  <path stroke="#00490E" stroke-width="30" fill="#FFB6F1" 
+    d="M110 0 h100 v110 h110 v100 h-110 v110 h-100 v-110 h-110 v-100 h110 Z"/>
+</svg>
