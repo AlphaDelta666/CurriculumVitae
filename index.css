@@ -14,11 +14,11 @@ header{
   border : 2px solid gray;
   border-radius: 5% / 25%;
   padding-right: 10%;
+  max-height: 10vh;
 }
 
 header, #Skills, #Tools, #Cursus,#Projects,#Interest{
   width: inherit;
-  min-height: 10vh;
 }
 
 header ul{
