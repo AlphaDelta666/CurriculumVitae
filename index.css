@@ -14,7 +14,6 @@ header{
   border : 2px solid gray;
   border-radius: 5% / 25%;
   padding-right: 10%;
-  max-height: 10vh;
 }
 
 header, #Skills, #Tools, #Cursus,#Projects,#Interest{
@@ -30,6 +29,7 @@ header ul a{
 header img{
   width: 350px;
   height: 450px;
+  max-height: 5vh;
 }
 
 /* --------------  Skills  ----------------------- */
