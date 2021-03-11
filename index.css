@@ -187,6 +187,7 @@ h2{
   display: flex;
   cursor: pointer;
   align-items: baseline;
+  padding: none;
 }
 .Title img{
   width: 16px;
