@@ -1,11 +1,18 @@
-body{
-  margin: 0px;
-  color: #176427;
+@media screen and (max-width:240px) {
+  body{
+    background-color: violet;
+  }
 }
+@media screen and (min-width:240px;) {
+  body{
+    margin: 0px;
+    color: #176427;
+  }
+}
+
 #container{
   padding: 0% 10%;
   border-radius: 5%/25%;
-
 }
 /* Header */
 header{
@@ -30,6 +37,7 @@ header img{
   width: 350px;
   height: 450px;
 }
+
 /* --------------  Skills  ----------------------- */
 /* ----------------  Outil et Modèle --------------*/
 

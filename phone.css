@@ -1,3 +1,206 @@
+/* css mobile first */
 body{
-  background-color: violet;
+  margin: 0px;
+  color: #176427;
+  font-size: 28px;
+}
+#container{
+  padding: 0% 10%;
+  border-radius: 5%/25%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  border : 2px solid gray;
+  border-radius: 5% / 25%;
+  padding-right: 10%;
+}
+header ul{
+  list-style: none;
+}
+header img{
+  max-width: 35px;
+  max-height: 45px;
+}
+
+#Skills td, #Tools td{
+  border-right: 3px solid rgb(211,211,211);
+}
+#Skills td:first-child,
+#Tools td:first-child{
+  border-left: 3px solid rgb(211,211,211);
+}
+#Skills tr:last-of-type td,
+#Tools tr:last-of-type td{
+  border-bottom: 2px solid rgb(211,211,211);
+}
+#Skills tr:last-of-type td:first-child,
+#Tools tr:last-of-type td:first-child{
+  border-radius: 5% / 0 0 0 25%;
+}
+#Skills tr:last-of-type td:last-child,
+#Tools tr:last-of-type td:last-child{
+  border-radius: 5% / 0 0 25% 0;
+}
+#Skills tr:last-of-type{
+  border-radius: 5%/ 0 0 25% 25%;
+}
+
+#Skills tbody tr:nth-child(2n), #Tools tbody tr:nth-child(2n){
+  background-color: #FFB6F1;
+  color: #00490E;
+}
+#Skills tbody tr:nth-child(2n+1), #Tools tbody tr:nth-child(2n+1){
+  background-color: #FFFFFF;
+  color: #00490E;
+}
+/* ------------------Project------------------- */
+#Projects tr:nth-of-type(2n+1) .desc{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Projects tr:nth-of-type(2n+1) .desc p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#Projects tr:nth-of-type(2n+1) .desc img{
+  width: 16px;
+  height: 16px;
+  transition: transform 0.5s linear;
+}
+#Project table{
+  width:100%;
+}
+#Projects td{
+  transition: background-color 1s ease, color 1s ease;
+
+}
+
+#Projects .hint{
+  display: none;
+  border: 5px solid #00490E;
+}
+
+#Projects .hint td{
+  width: 50%;
+}
+
+#Projects tr:hover td{
+  background-color: #00490E;
+  color:#FFB6F1;
+}
+#Projects .selected{
+  color:#00490E;
+}
+
+#Projects .selected td:first-child{
+  border-left: 2px solid  #00490E;
+  border-top: 2px solid  #00490E;
+  border-radius: 5%/25% 0 0 0;
+}
+#Projects .selected td:last-child{
+  border-right: 2px solid  #00490E;
+  border-top: 2px solid  #00490E;
+  border-radius: 5%/0 25% 0 0;
+}
+
+#Projects .hint td:first-child{
+  border-left: 2px solid  #00490E;
+}
+#Projects .hint td:last-child{
+  border-right: 2px solid  #00490E;
+}
+.hint td.skill, .hint td.desc{
+  border-bottom: 2px solid  #00490E;
+}
+
+#Projects .hint ul{
+  list-style: none;
+}
+#Projects .hint ul.skill li:nth-child(n+1){
+  list-style: none;
+  color:#00490E;
+}
+#Projects tr.hint:hover ul.skill li:first-child{
+  color:#FFB6F1;
+}
+#Projects .hint li{
+  padding-left: 10px;
+}
+
+#Projects .hint .title{
+  text-align: center;
+  font-weight: bold;
+
+}
+#Projects .hint .human{
+  background-color:rgb(176, 66, 255);
+}
+#Projects .hint .tech{
+  background-color: rgb(66, 151, 255);
+}
+#Projects .hint .method{
+  background-color: rgb(87, 255, 115);
+}
+
+
+/* ---------------Commun----------------  */
+a{
+  text-decoration: none;
+}
+h2{
+  text-decoration: underline;
+  color: #00490E;
+}
+table th:first-child {
+  border-radius: 5%/25% 0 0 0;
+}
+table th:last-child {
+  border-radius:  5%/0 25% 0 0;
+}
+table th{
+  background-color: rgb(211,211,211);
+}
+.Title{
+  display: ruby-base-container;
+  cursor: pointer;
+}
+.Title img{
+  width: 16px;
+  height: 16px;
+  transition: transform 0.5s;
+  transform: rotate(90deg);
+}
+table{
+  display: block;
+  max-height: 900px;
+  border-spacing: 0;
+  transition: max-height 1s, margin 0.5s linear;
+}
+.Title + ul{
+  max-height: 900px;
+  transition: max-height 1s, margin 0.5s linear;
+}
+
+table.close,ul.close{
+  max-height: 0px;
+  overflow: hidden;
+}
+ul.close{
+  margin:0px;
+}
+
+@media screen and (min-width:481px) {
+  body{
+    font-size: 11px;
+  }
+  header img{
+    max-width: 350px;
+    max-height: 450px;
+  }
+  #Projects tr:nth-of-type(2n+1) .desc img{
+    width: 32px;
+    height: 32px;
+  }
 }
