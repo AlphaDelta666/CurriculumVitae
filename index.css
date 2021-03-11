@@ -1,15 +1,8 @@
-@media screen and (max-width:240px) {
-  body{
-    background-color: violet;
-  }
+body{
+  margin: 0px;
+  color: #176427;
+  font-size: 24px;
 }
-@media screen and (min-width:240px;) {
-  body{
-    margin: 0px;
-    color: #176427;
-  }
-}
-
 #container{
   padding: 0% 10%;
   border-radius: 5%/25%;
@@ -25,6 +18,7 @@ header{
 
 header, #Skills, #Tools, #Cursus,#Projects,#Interest{
   width: inherit;
+  min-height: 10vh;
 }
 
 header ul{
@@ -42,38 +36,51 @@ header img{
 /* ----------------  Outil et Modèle --------------*/
 
 
-#Skills td, #Tools td{
+#Skills td, #Tools td, #Interest td{
   border-right: 3px solid rgb(211,211,211);
 }
 #Skills td:first-child,
-#Tools td:first-child{
+#Tools td:first-child,
+#Interest td:first-child{
   border-left: 3px solid rgb(211,211,211);
 }
 #Skills tr:last-of-type td,
-#Tools tr:last-of-type td{
+#Tools tr:last-of-type td,
+#Interest tr:last-of-type td{
   border-bottom: 2px solid rgb(211,211,211);
 }
 #Skills tr:last-of-type td:first-child,
-#Tools tr:last-of-type td:first-child{
+#Tools tr:last-of-type td:first-child,
+#Interest tr:last-of-type td:first-child{
   border-radius: 5% / 0 0 0 25%;
 }
 #Skills tr:last-of-type td:last-child,
-#Tools tr:last-of-type td:last-child{
+#Tools tr:last-of-type td:last-child,
+#Interest tr:last-of-type td:last-child{
   border-radius: 5% / 0 0 25% 0;
 }
 #Skills tr:last-of-type{
   border-radius: 5%/ 0 0 25% 25%;
 }
 
-#Skills tbody tr:nth-child(2n), #Tools tbody tr:nth-child(2n){
+#Skills tbody tr:nth-child(2n), #Tools tbody tr:nth-child(2n), #Interest tbody tr:nth-child(2n){
   background-color: #FFB6F1;
   color: #00490E;
 }
-#Skills tbody tr:nth-child(2n+1), #Tools tbody tr:nth-child(2n+1){
+#Skills tbody tr:nth-child(2n+1), #Tools tbody tr:nth-child(2n+1), #Interest tbody tr:nth-child(2n+1){
   background-color: #FFFFFF;
   color: #00490E;
 }
 
+#Interest tr:first-child td{
+  border-top: 3px solid rgb(211,211,211);
+}
+#Interest tr:first-child td:first-child{
+  border-radius: 5%/25% 0 0 0;
+}
+#Interest tr:first-child td:last-child{
+  border-radius: 5%/0 25% 0 0;
+}
 /* -------------------------------------------------------------------------- */
 /* ----------------- Project -----------------------*/
 #Projects tr:nth-of-type(2n+1) .desc{
