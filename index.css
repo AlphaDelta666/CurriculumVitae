@@ -184,8 +184,9 @@ h2{
   padding-left: 0;
 }
 .Title{
-  display: ruby-base-container;
+  display: flex;
   cursor: pointer;
+  align-items: baseline;
 }
 .Title img{
   width: 16px;
