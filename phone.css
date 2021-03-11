@@ -2,7 +2,7 @@
 body{
   margin: 0px;
   color: #176427;
-  font-size: 28px;
+  font-size: 14px;
 }
 #container{
   padding: 0% 10%;
@@ -191,7 +191,7 @@ ul.close{
   margin:0px;
 }
 
-@media screen and (min-width:481px) {
+@media screen and (min-device-width:481px) {
   body{
     font-size: 11px;
   }
