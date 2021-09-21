@@ -151,7 +151,7 @@ header img{
   list-style: none;
   color:#00490E;
 }
-#Projects tr.hint:hover ul.skill li:first-child{
+#Projects tr.hint:hover ul.skill li.#title{
   color:#FFB6F1;
 }
 #Projects .hint li{
