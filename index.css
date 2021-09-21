@@ -198,7 +198,7 @@ h2{
 }
 table{
   display: block;
-  max-height: 900px;
+  /* max-height: 900px; */
   border-spacing: 0;
   transition: max-height 1s, margin 0.5s linear;
 }
